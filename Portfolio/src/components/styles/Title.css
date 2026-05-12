@@ -1,0 +1,32 @@
+@import url('../../Variables.css');
+
+#PageTitle {
+    color: var(--base-text-color);
+
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    white-space: nowrap;
+}
+
+#PageTitle_shadow {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    white-space: nowrap;
+    filter: blur(12px);
+
+    margin-top: 1rem;
+    margin-left: 5rem;
+}
+
+.PageTitle_container {
+    color: rgba(70, 56, 17, 0.459);
+    position: relative;
+
+    letter-spacing: -1px;
+}
